@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "craftsaddles",
+  "version": "1.0.4",
+
+  "name": "Craft Saddles",
+  "description": "This mods lets you craft saddles, and the rest of the un-craft-able horse armors!",
+  "authors": [
+    "Exline"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/craft-saddles-forge-1-16-5",
+    "issues": "https://github.com/jexline/exline-mods-issues/issues"
+  },
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/craftsaddles/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.exline.craftsaddles.CraftSaddlesMain"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
